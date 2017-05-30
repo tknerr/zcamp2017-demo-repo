@@ -26,4 +26,10 @@ $ foodcritic .
 Generate a new Ansible role:
 ```
 $ molecule init role --role-name myapp_ansible
+$ cd myapp_ansible
+```
+
+Lint check via `ansible-lint`:
+```
+$ ansible-lint molecule/default/playbook.yml
 ```
