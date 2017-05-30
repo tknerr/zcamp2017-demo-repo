@@ -31,5 +31,5 @@ $ cd myapp_ansible
 
 Lint check via `ansible-lint`:
 ```
-$ ansible-lint molecule/default/playbook.yml
+$ ansible-lint site.yml
 ```
