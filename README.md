@@ -11,14 +11,19 @@ Use [Linus Kitchen v0.3](https://github.com/tknerr/linus-kitchen/releases/tag/v0
 
 Generate a new Chef cookbook:
 ```
-$ chef generate cookbook myapp-chef
+$ chef generate cookbook myapp_chef
+$ cd myapp_chef
 ```
 
+Lint check via `foodcritic`:
+```
+$ foodcritic .
+```
 
 
 ## Ansible Demo
 
 Generate a new Ansible role:
 ```
-$ molecule init role --role-name myapp-ansible
+$ molecule init role --role-name myapp_ansible
 ```
