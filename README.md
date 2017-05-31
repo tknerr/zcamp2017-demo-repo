@@ -9,12 +9,6 @@ Use [Linus Kitchen v0.3](https://github.com/tknerr/linus-kitchen/releases/tag/v0
 
 ## Chef Demo
 
-Generate a new Chef cookbook:
-```
-$ chef generate cookbook myapp_chef
-$ cd myapp_chef
-```
-
 Lint check via `foodcritic`:
 ```
 $ foodcritic .
@@ -26,12 +20,6 @@ $ kitchen verify
 ```
 
 ## Ansible Demo
-
-Generate a new Ansible role:
-```
-$ molecule init role --role-name myapp_ansible
-$ cd myapp_ansible
-```
 
 Lint check via `ansible-lint`:
 ```
