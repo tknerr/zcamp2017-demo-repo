@@ -1,2 +1,5 @@
 ---
 # tasks file for myapp_ansible
+
+- name: "install apache2 webserver"
+  apt: name=apache2 state=present
