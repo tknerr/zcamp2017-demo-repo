@@ -16,7 +16,9 @@ $ foodcritic .
 
 Integration-test the Chef cookbook:
 ```
+$ kitchen converge
 $ kitchen verify
+$ kitchen destroy
 ```
 
 ## Ansible Demo
@@ -28,5 +30,7 @@ $ ansible-lint site.yml
 
 Integration-test the Ansible role:
 ```
+$ molecule converge
 $ molecule verify
+$ molecule destroy
 ```
