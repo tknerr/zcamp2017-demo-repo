@@ -1,1 +1,6 @@
+*.pyc
+site.retry
+.cache/
+.molecule/
+__pycache__/
 .vagrant/
