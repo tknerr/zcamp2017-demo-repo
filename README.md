@@ -20,6 +20,10 @@ Lint check via `foodcritic`:
 $ foodcritic .
 ```
 
+Integration-test the Chef cookbook:
+```
+$ kitchen verify
+```
 
 ## Ansible Demo
 
@@ -32,4 +36,9 @@ $ cd myapp_ansible
 Lint check via `ansible-lint`:
 ```
 $ ansible-lint site.yml
+```
+
+Integration-test the Ansible role:
+```
+$ molecule verify
 ```
