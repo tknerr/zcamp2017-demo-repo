@@ -34,3 +34,7 @@ $ molecule converge
 $ molecule verify
 $ molecule destroy
 ```
+Executing the Ansible role via Vagrant in Docker:
+```
+$ vagrant up --provider docker
+´´´
